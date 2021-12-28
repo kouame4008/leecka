@@ -1,0 +1,149 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Layout Admin 
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$navbarHeight : 60px;
+
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.vs-navbar {
+    height: $navbarHeight;
+    padding: 0 20px;
+    background: #FFF !important;
+    position: sticky !important;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    z-index: 10000;
+}
+#app-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#app-sidebar {
+    flex: 0 0 260px;
+    // background: rgba(255, 224, 224, 0.5);
+    background: rgb(21 17 96);;
+    height: 100vh;
+    max-width: 230px;
+    width: 230px;
+    position: fixed;
+    transition: width .3s;
+    box-shadow: 0.15rem 0 1.75rem 0 rgb(31 45 65 / 15%);
+    padding: 10px;
+ }
+ #app-wrapper {
+    width: 100%;
+    margin-left: 230px;
+    transition: width .3s;
+
+ }
+
+ #app-wrapper .content-header {
+   background: #4646db14;
+   height: 160px;
+   position: relative;
+ }
+
+ #app-wrapper .content-header:after {
+  content: '';
+ }
+ .pages{
+  padding: 1rem 3rem;
+  z-index: 5;
+ }
+
+ .navtitle {
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+
+}
+
+.navtitle .app-header-icon {
+  float: right;
+  background: #FFF;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .20);
+  height: auto;
+  left: -15px;
+  top: -5px;
+}
+
+.navtitle .app-header-icon:focus,
+.navtitle .app-header-icon:hover {
+  border-color: unset;
+  color: unset;
+}
+
+.show {
+  width: 80px !important;
+  transition: width .3s;
+}
+
+.margin {
+  margin-left: 80px !important;
+  transition: all ease-in .3s;
+}
+
+.mn-10 {
+  position: relative;
+  margin-top: -4rem !important;
+  background: #FFF;
+}
+.ant-page-header-heading-title {
+// color: #FFF !important;
+}
+
+.ant-page-header-back svg {
+  color: #FFF !important;
+}
+.ant-menu-item {
+  padding-left: 10px !important;
+  margin: 1rem 0 !important;
+}
+.ant-menu-item-selected {
+  background: #af090f !important;
+  transition: background .3s !important;
+  
+}
+
+.ant-menu-item-selected .menu-icon {
+  background: transparent;
+  transition: background .3s;
+}
+
+.menu-icon {
+  background: #0288d1;
+    color: rgb(26, 1, 83);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 40px;
+    width: 45px;
+    font-size: 25px;
+    border-radius: 6px;
+    transition: background .3s;
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+  border: 0 !important;
+}
+
