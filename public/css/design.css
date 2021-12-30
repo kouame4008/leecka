@@ -17,7 +17,7 @@ body{
 	width: 1307px;
     height: 242px;
     position: absolute;
-    background-image: url(/images/2.png);
+    background-image: url(/img/2.png);
     left: 0;
     top: 0;
 }
@@ -26,7 +26,7 @@ body{
 .bgImg{
 	width: 1000px;
 	height: 623px;
-	background-image: url(/images/form.png);
+	background-image: url(/img/form.png);
 	position: absolute;
 	right: 0;
 }
@@ -50,7 +50,7 @@ body{
 
 .msg2{
 	font-weight: 900;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 40px;
 }
 
@@ -62,6 +62,7 @@ body{
 	border-radius: 50px !important;
 	font-weight: bold;
 	font-size: 12px;
+	padding: 10px 20px;
 }
 
 .green{
@@ -132,7 +133,18 @@ body{
     line-height: 1.42857;
 }
 
+.filtre-box{
+	height: 200px;
+	border: 1px solid #ebebeb;
+	border-radius: 10px;
+	padding: 0 10px;
+}
 
+.filtre-box h2{
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px 0px;
+}
 
 .serivceBox{
 	height: 150px;
@@ -201,7 +213,7 @@ body{
 
 .servicePlusInfo .star .left{
 	float: left;
-	width: 50%;
+	width: 25%;
 }
 
 
@@ -212,7 +224,7 @@ body{
 
 .servicePlusInfo .star .right{
 	float: right;
-	width: 50%;
+	width: 75%;
 	font-size: 12px;
     line-height: 27px;
 }
@@ -237,8 +249,6 @@ body{
 .video{
 	height: 400px;
 }
-
-
 
 
 .footer{
@@ -276,8 +286,6 @@ a:hover{
 .bottom .copyright p, .bottom .copyright a:hover{
     color: #6c6d83;
 }
-
-
 
 
 .carousel-control-prev {
@@ -329,7 +337,7 @@ pro-button{
 
 
 .testi-bg{
-	background-image: url("/images/bg2.png");
+	background-image: url("../img/bg2.png");
 	height: 395px;
 	margin: auto;
 }

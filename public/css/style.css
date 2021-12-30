@@ -875,11 +875,191 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
   margin: 0 auto;
 }
 
+nav{
+  margin:0 auto;
+  padding-top:60px;
+}
+.pagination.pagination-circle .page-item.active .page-link {
+    border-radius: 50%;
+}
+.pagination .page-item .page-link:hover {
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    border-radius: .125rem;
+    background-color: #eee;
+}
+.pagination.pg-blue .page-item.active .page-link:hover {
+    background-color: #54A65A;
+}
+.pagination .page-item.active .page-link {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    border-radius: .125rem;
+    background-color: #54A65A;
+    color: #fff;
+}
+.pagination .page-item .page-link {
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: .9rem;
+    color: #999;
+    font-weight:bold;
+}
+.pagination.pagination-circle .page-item .page-link:hover {
+    border-radius: 50%;
+}
+.pagination.pagination-circle .page-item .page-link {
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 50%;
+}
+.pagination .page-item.active .page-link{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.page-link{
+  border:none!important;
+}
+
+
+.form-styling {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 50px;
+    background: #e5e5e5;
+	font-size: 14px;
+}
+
+.btn-animate {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 8px;
+    width: 100%;
+    height: 42px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    background-color: #FCB311;
+    left: 0px;
+    top: 0px;
+    transition: all 0.5s ease, top 0.5s ease 0.5s, height 0.5s ease 0.5s, background-color 0.5s ease 0.75s;
+}
+
+.btn-signin {
+    float: left;
+    padding-top: 12px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -8px;
+}
+
+.btn-animate a{
+	 color: #fff !important;
+}
+
+a.fb-login {
+    background-color: #3B5998;
+}
+
+a.google-login {
+    background-color: #db4437;
+}
+
+.social-login {
+    display: block;
+    margin: 5px auto;
+    text-decoration: none;
+    padding: 13px 40px;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 45px;
+	text-align: center;
+}
+
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+.hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+.nav-tabs  a{
+	color: inherit !important;
+}
+
+
+.my-navbar {
+    box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
+}
+
+
+
+.btn-user {
+    color: #fff;
+    background-color: #34485D !important;
+    border-color: #34485D !important;
+}
+
+.btn-animate-pro {
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 8px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 23px;
+    background-color: #54A65A !important;
+    left: 0px;
+    top: 0px;
+    transition: all 0.5s ease, top 0.5s ease 0.5s, height 0.5s ease 0.5s, background-color 0.5s ease 0.75s;
+}
+
+.btn-animate-pro a{
+	color: #fff !important;
+}
 
 navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #34485D ! important;
 }
-
 
 .svg-border-angled { padding-top: 3rem; }
 .svg-border-angled svg { position: absolute; bottom: 0px; left: 0px; height: 3rem; width: 100%; }

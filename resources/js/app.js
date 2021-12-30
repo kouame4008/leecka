@@ -35,6 +35,7 @@ Vue.use (Space);
 
 Vue.component('admin-layout', require('./admin/layouts/admin-layout.vue').default);
 Vue.component('app-layout', require('./layouts/app-layout.vue').default);
+Vue.component('page-layout', require('./layouts/page-layout.vue').default);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 

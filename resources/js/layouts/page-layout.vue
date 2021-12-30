@@ -1,6 +1,6 @@
 <template>
 <div>
-    <Navbar />
+    <Navbar-page />
     <slot />
     <Footer />
 </div>
@@ -8,11 +8,11 @@
 
 <script>
 import Footer from '../components/Footer.vue'
-import Navbar from '../components/Navbar.vue'
+import NavbarPage from '../components/navbar-page.vue'
 export default {
     components: {
         Footer,
-        Navbar
+        NavbarPage
     },
 
 }
